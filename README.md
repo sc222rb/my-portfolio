@@ -2,10 +2,17 @@
 Hello! My name is Sayaka, and I’m originally from Japan, now residing in Stockholm. I recently graduated from Linnaeus University with a degree in Computer Science. Alongside my passion for programming, I’m a mother of three and a former healthcare professional. In my free time, I enjoy exercising, cooking, and traveling.
 
 ## Technical Skills:
-- JavaScript | React | Node.js | Express | Java | PHP | Python
-- Git | NPM | Linux | Docker | Nginx | Gradle
-- Jest | Mocha | JUnit
-- JWT | Bash
+To improve the readability and presentation of your technical skills section on the web, you can organize the list into clearer categories and format it with bullet points or grids to avoid overwhelming readers. Here's a suggestion on how to structure it:
+
+---
+
+### Technical Skills:
+
+- JavaScript, React, Node.js, Express  
+- Java, PHP, Python  
+- Git, NPM, Linux, Docker, Nginx, Gradle  
+- Jest, Mocha, JUnit  
+- JWT, Bash  
 
 ## Projects
 ### OAuth2 Access Delegation System for GitLab + Consuming REST and GraphQL APIs
