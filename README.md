@@ -1,12 +1,15 @@
 # Fullstack Developer
-Hello! My name is Sayaka, and I’m originally from Japan, now residing in Stockholm. I recently graduated from Linnaeus University with a degree in Computer Science. Alongside my passion for programming, I’m a mother of three and a former healthcare professional. In my free time, I enjoy exercising, cooking, and traveling.
 
-## Technical Skills:
-To improve the readability and presentation of your technical skills section on the web, you can organize the list into clearer categories and format it with bullet points or grids to avoid overwhelming readers. Here's a suggestion on how to structure it:
+Hello! My name is **Sayaka**, and I’m a passionate **fullstack developer** based in **Stockholm**, originally from **Japan**.  
+I recently graduated from **Linnaeus University** with a degree in **Computer Science**.
 
----
+In addition to my love for coding, I bring a unique perspective from my background as a **healthcare professional** and **mother of three**.  
+I’m always eager to grow, learn, and take on new challenges.
 
-### Technical Skills:
+In my free time, I enjoy **exercising**, **cooking**, or **traveling** !
+
+
+## Technical Skills
 
 - JavaScript, React, Node.js, Express  
 - Java, PHP, Python  
