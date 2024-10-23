@@ -12,7 +12,7 @@ function Project03 () {
                     </p>
                 </div>
                 <div className="project-link flex-row">
-                    <a href="https://github.com/sc222rb/Beehive-Monitoring-Dashboard" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/sc222rb/Web-for-Data-Sience" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="github-icon" />
                         <p>GitHub repo</p>
                     </a>
