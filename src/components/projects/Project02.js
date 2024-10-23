@@ -1,10 +1,11 @@
 import { FaGithub } from 'react-icons/fa';
+import projectImg2 from './../../img/project-img02.png';
 
 function Project02 () {
     return (
         <div className="project-item">
             <div>
-                <img src="./../img/project-img02.png" alt="Project 2" className="project-image" />
+                <img src={projectImg2} alt="Project 2" className="project-image" />
             </div>
             <div className="project-item2">
                 <div className="project-text left-centered">

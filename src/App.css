@@ -109,11 +109,18 @@ p {
   flex-direction: row;
   align-items: center;
   width: 80%;
-  height: 400px;
+  max-width: 1200px;
   border: 1px solid #cccccc2a;
   padding: 20px;
-  margin: 10px;
+  margin: 10px auto;
   background-color: #cccccc2a;
+}
+
+.project-item2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .project-link p {
@@ -122,12 +129,21 @@ p {
 }
 
 .project-link a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   text-decoration: none;
   color: black;
+  padding: 10px;
 }
 
 .project-image {
-  max-width: 600px;
-  height: 350px;
+  max-width: 500px;
+  height: auto;
   margin: 20px;
+}
+
+.github-icon {
+  margin-right: 8px;
+  font-size: 1.2rem;
 }
