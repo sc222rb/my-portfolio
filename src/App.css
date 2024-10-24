@@ -127,6 +127,17 @@ p {
   width: 70%;
 }
 
+@media (max-width: 768px) {
+  .about-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-photo {
+    margin: 0 0 20px 0;
+  }
+}
+
 .Projects {
   width: 100%;
 }
@@ -151,11 +162,25 @@ p {
   background-color: #cccccc2a;
 }
 
+@media (max-width: 1180px) {
+  .project-item {
+    flex-direction: column; /* 縦並びにする */
+  }
+}
+
 .project-item2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.project-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 20px;
 }
 
 .project-link p {
@@ -169,7 +194,16 @@ p {
   justify-content: center;
   text-decoration: none;
   color: black;
-  padding: 10px;
+  background-color: #8748e62a;
+  border: 1px solid #cccccc2a;
+  padding: 2px;
+  border-radius: 40px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.project-link a:hover {
+  background-color: #8c4ee8cf;
+  color: #ffffff;
 }
 
 .project-image {
