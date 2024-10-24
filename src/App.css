@@ -61,6 +61,29 @@ p {
   animation: slideInFromTop 1s ease-out;
 }
 
+.arrow-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 0;
+  animation: arrowJump 1.5s infinite;
+}
+
+.arrow {
+  width: 27px;
+  height: 68px;
+}
+
+@keyframes arrowJump {
+  from {
+    top: 75px;
+  }
+  to {
+    top: 125px;
+  }
+}
+
 .left-centered {
   text-align: left;
   display: flex;
@@ -84,7 +107,7 @@ p {
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-  margin-right: 10px;
+  margin: 20px 10px 20px 20px;
 }
 
 .about-container {
@@ -93,6 +116,7 @@ p {
   align-items: center;
   justify-content: center;
   width: 80%;
+  margin: 0 auto;
 }
 
 .about-item {
@@ -101,10 +125,6 @@ p {
   align-items: center;
   justify-content: center;
   width: 70%;
-}
-
-.about-photo {
-  margin: 20px;
 }
 
 .Projects {
