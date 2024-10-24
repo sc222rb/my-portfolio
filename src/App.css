@@ -136,6 +136,28 @@ p {
   .about-photo {
     margin: 0 0 20px 0;
   }
+
+  .about-content {
+    margin-left: 0;
+    text-align: center;
+  }
+}
+
+.icons-contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.linkedin-icon:hover {
+  background-color: #8c4ee8cf;
+  color: #ffffff;
+}
+
+.github-icon:hover {
+  background-color: #8c4ee8cf;
+  color: #ffffff;
 }
 
 .Projects {
@@ -212,7 +234,8 @@ p {
   margin: 20px;
 }
 
+.linkedin-icon,
 .github-icon {
-  margin-right: 8px;
-  font-size: 1.2rem;
+  margin-right: 10px;
+  font-size: 1.5rem;
 }
