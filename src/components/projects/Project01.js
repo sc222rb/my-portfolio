@@ -10,7 +10,7 @@ function Project01 () {
             <div className="project-item2">
                 <div className="project-text left-centered">
                     <p>This Node.js application was designed to implement an OAuth2 access delegation system for a server-side rendered web app, where GitLab serves as the service provider. The OAuth2 flow is built from scratch, without using external libraries, allowing users to securely log in with their GitLab accounts hosted on gitlab.lnu.se.<br />  
-                    Stack: Node.js, Express, EJS, GitLab API, OAuth2, REST API, GraphQL</p>
+                    <b>Stack:</b> Node.js, Express, EJS, GitLab API, OAuth2, REST API, GraphQL</p>
                 </div>
                 <div className="project-link flex-row">
                     <a href="https://github.com/sc222rb/oauth" target="_blank" rel="noopener noreferrer">
