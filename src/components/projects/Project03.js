@@ -9,7 +9,8 @@ function Project03 () {
             </div>
             <div className="project-item2">
                 <div className="project-text left-centered">
-                    <p>This project serves as a web application for data science, providing interactive visualizations of historical beehive data from Würzburg and Schwartau. Utilizing a classic MERN stack, it analyzes parameters such as bee arrivals and departures, temperature, humidity, and hive weight to offer insights into hive health and activity. Key features include dynamic visualizations, data filters, and responsive design. The project demonstrates the power of data visualization in understanding complex datasets and making informed decisions.
+                    <p>This web app for data science visualizes historical beehive data using the MERN stack. It provides dynamic insights into hive health through interactive charts on bee activity, temperature, humidity, and hive weight, with features like data filters and responsive design.<br /> 
+                    <b>Stack:</b> MongoDB, Node.js, React, Express.js, Plotly.js, Docker, Tailwind CSS, Git
                     </p>
                 </div>
                 <div className="project-link flex-row">

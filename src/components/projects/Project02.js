@@ -9,7 +9,9 @@ function Project02 () {
             </div>
             <div className="project-item2">
                 <div className="project-text left-centered">
-                    <p>This is a HATEOAS-driven REST API that uses the HAL format for hypermedia and follows the MVC architectural pattern. It enables comprehensive monitoring of mobile beehive platforms, offering authenticated access to hive data such as humidity, temperature, weight, and bee flow. Farmers can manage their beehives, report honey harvests, and subscribe to harvest updates via notifications. The API uses a 2017 sensor dataset from Kaggle and stores the data in MongoDB, providing a reliable platform for tracking hive conditions and managing harvests.</p>
+                    <p>This HATEOAS-driven REST API in HAL format enables authenticated monitoring of mobile beehives, providing data on humidity, temperature, weight, and bee flow. Farmers can manage hives, report harvests, and receive notifications. Using a Kaggle sensor dataset stored in MongoDB, the API offers a reliable platform for tracking hive conditions and managing harvests.<br /> 
+                    <b>Stack:</b> Node.js, Express.js, MongoDB, REST API, HATEOAS, Docker, Git, Swagger, Postman, Swagger, Webhook
+                    </p>
                 </div>
                 <div className="project-link flex-row">
                     <a href="https://github.com/sc222rb/beehive" target="_blank" rel="noopener noreferrer">
