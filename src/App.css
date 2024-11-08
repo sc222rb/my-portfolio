@@ -43,7 +43,8 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: white;
+  color: transparent;
+  -webkit-text-stroke: 1.1px white;
 }
 
 @keyframes slideInFromTop {
@@ -61,26 +62,12 @@ p {
   animation: slideInFromTop 1s ease-out;
 }
 
-.arrow-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  top: 0;
-  animation: arrowJump 1.5s infinite;
-}
-
-.arrow {
-  width: 27px;
-  height: 68px;
-}
-
 @keyframes arrowJump {
   from {
-    top: 75px;
+    top: 10px;
   }
   to {
-    top: 125px;
+    top: 40px;
   }
 }
 
