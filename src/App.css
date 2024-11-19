@@ -226,3 +226,28 @@ p {
   margin-right: 10px;
   font-size: 1.5rem;
 }
+
+.language-toggle-container {
+  position: fixed; 
+  top: 20px; 
+  right: 10px; 
+  z-index: 1000;
+}
+
+.language-toggle {
+  width: 3cm; 
+  height: 1cm; 
+  background-color: #5165bd; 
+  color: white;
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 14px; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.language-toggle:hover {
+  background-color: #2724f6; 
+}

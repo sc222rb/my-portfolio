@@ -1,13 +1,13 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import profileimage from './../img/profile.png';
 
-function About() {
+function AboutJP() {
   return (
     <div className="about-container">
     <h3>ABOUT</h3>
       <div className="about-item">
         <div className="about-text text-justify">
-          <p>👋 Hi! I'm Sayaka, a fullstack developer based in Stockholm. I recently graduated with a degree in Computer Science from Linnaeus University 🎓, having completed my studies during my parental leaves. Before transitioning into tech, I spent many years working in healthcare. I chose this new career path because it perfectly blends my love for problem-solving and creativity. Outside of work, I enjoy staying active, cooking, and exploring new places ✈️!</p>
+          <p>👋ストックホルム在住のフルスタックエンジニア、SAYAKAです。2024年夏にスウェーデンの大学でWebプログラミング専攻でコンピュータサイエンスの学位を取得しました🎓。テック業界に転職する前は、医療分野で長年働いていました。問題解決能力とクリエイティビティを活かせる開発に魅力を感じています。趣味はトレーニング、料理、旅行🛫です。</p>
         </div>
         <img
           className="about-photo"
@@ -27,4 +27,4 @@ function About() {
   );
 }
 
-export default About;
+export default AboutJP;
