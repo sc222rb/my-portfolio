@@ -7,7 +7,7 @@ function About() {
     <h3>ABOUT</h3>
       <div className="about-item">
         <div className="about-text text-justify">
-          <p>👋 Hi! I'm Sayaka, a fullstack developer based in Stockholm. I recently graduated with a degree in Computer Science from Linnaeus University 🎓, having completed my studies during my parental leaves. Before transitioning into tech, I spent many years working in healthcare. I chose this new career path because it perfectly blends my love for problem-solving and creativity. Outside of work, I enjoy staying active, cooking, and exploring new places ✈️!</p>
+          <p>👋 Hi! I'm Sayaka, a fullstack developer based in Stockholm. In the summer of 2024, I graduated with a degree in Web Programming from a Swedish university 🎓. Now, I work remotely as a fullstack engineer for a Japanese company 💻. Outside of work, I enjoy staying active, cooking, and exploring new places ✈️!</p>
         </div>
         <img
           className="about-photo"
