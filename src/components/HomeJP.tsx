@@ -1,6 +1,6 @@
 import { Player } from '@lottiefiles/react-lottie-player'
 
-function Home() {
+const HomeJP: React.FC = () => {
   return ( 
     <div className='Home'>
         <div className="home-item position">
@@ -11,7 +11,7 @@ function Home() {
             autoplay
             speed={1}/>
           <h2>I'M SAYAKA</h2>
-          <h6>Fullstack Developer with a background in healthcare</h6>
+          <h2>フルスタックエンジニア</h2>
         </div>
         <div className="arrow-container">
           <Player 
@@ -26,4 +26,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default HomeJP;

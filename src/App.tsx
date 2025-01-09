@@ -7,8 +7,8 @@ import AboutJP from './components/AboutJP';
 import Projects from './components/Projects';
 import ProjectsJP from './components/ProjectsJP';
 
-function App() {
-  const [language, setLanguage] = useState('EN');
+const App: React.FC = () => { 
+  const [language, setLanguage] = useState<'EN' | 'JP'>('EN');
 
   const toggleLanguage = () => {
     setLanguage(prevLang => (prevLang === 'EN' ? 'JP' : 'EN'));

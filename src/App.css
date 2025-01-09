@@ -39,7 +39,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-image: url('./img/background.jpeg');
+  background-image: url('./../public/image/background.jpeg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -114,6 +114,10 @@ p {
   width: 70%;
 }
 
+.about-text {
+  text-align: justify;
+}
+
 @media (max-width: 768px) {
   .about-item {
     flex-direction: column;
@@ -173,7 +177,7 @@ p {
 
 @media (max-width: 1180px) {
   .project-item {
-    flex-direction: column; /* 縦並びにする */
+    flex-direction: column;
   }
 }
 
@@ -182,6 +186,10 @@ p {
   flex-direction: column;
   align-items: center;
   text-align: center;
+}
+
+.project-text {
+  text-align: justify;
 }
 
 .project-link {

@@ -1,17 +1,16 @@
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import profileimage from './../img/profile.png';
 
-function AboutJP() {
+const About: React.FC = () => {
   return (
     <div className="about-container">
     <h3>ABOUT</h3>
       <div className="about-item">
-        <div className="about-text text-justify">
-          <p>👋こんにちは、ストックホルム在住のSAYAKAです!2024年夏にスウェーデンの大学でWebプログラミング専攻の学位を取得し、現在はフルリモートで日本企業のフルスタックエンジニアとして働いています💻。趣味はトレーニング、料理、旅行🛫です。どうぞよろしくお願いします!</p>
+        <div className="about-text">
+          <p>👋 Hi! I'm Sayaka, a fullstack developer based in Stockholm. In the summer of 2024, I graduated with a degree in Web Programming from a Swedish university 🎓. Now, I work remotely as a fullstack engineer for a Japanese company 💻. Outside of work, I enjoy staying active, cooking, and exploring new places ✈️!</p>
         </div>
         <img
           className="about-photo"
-          src={profileimage}
+          src={`${process.env.PUBLIC_URL}/image/profile.png`}
           alt="Profile"
         />
       </div>
@@ -27,4 +26,4 @@ function AboutJP() {
   );
 }
 
-export default AboutJP;
+export default About;

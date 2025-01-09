@@ -1,14 +1,13 @@
 import { FaGithub } from 'react-icons/fa';
-import projectImg1 from './../../img/project-img01.png';
 
-function Project01 () {
+const Project01: React.FC = () => {
     return (
         <div className="project-item">
             <div>
-                <img src={projectImg1} alt="Project 1" className="project-image" />
+                <img src={`${process.env.PUBLIC_URL}/image/project-img01.png`} alt="Project 1" className="project-image" />
             </div>
             <div className="project-item2">
-                <div className="project-text text-justify">
+                <div className="project-text">
                     <p>このプロジェクトは、サーバーサイドレンダリングを使用したWebアプリケーションで、三者間OAuth2フローを実装しています。これにより、ユーザーはGitLabアカウントでログインでき、GitLabプロフィールからさまざまな情報にアクセスできるようになります。OAuth2フローは外部ライブラリを使用せずに一から構築しており、ユーザーがGitLabアカウントで安全にログインできるようになっています。<br />  
                     <b>Stack:</b> Node.js, Express, EJS, GitLab API, OAuth2, REST API, GraphQL</p>
                 </div>
