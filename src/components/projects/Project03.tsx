@@ -5,13 +5,13 @@ const Project03: React.FC = () => {
         <div className="project-item">
             <div>
                 <a 
-                    href="https://www.youtube.com/watch?v=zjLYnyyKxxI" 
+                    href="https://youtu.be/95P3w4QUKs8" 
                     target="_blank" 
                     rel="noopener noreferrer"
                     className="video-thumbnail-wrapper"
                 >
                     <img 
-                        src="https://img.youtube.com/vi/zjLYnyyKxxI/maxresdefault.jpg"
+                        src="https://img.youtube.com/vi/95P3w4QUKs8/maxresdefault.jpg"
                         alt="Project 3 Demo" 
                         className="project-image" 
                     />
