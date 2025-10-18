@@ -4,7 +4,18 @@ const Project03: React.FC = () => {
     return (
         <div className="project-item">
             <div>
-                <img src={`${process.env.PUBLIC_URL}/image/project-img03.png`} alt="Project 3" className="project-image" />
+                <a 
+                    href="https://www.youtube.com/watch?v=zjLYnyyKxxI" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="video-thumbnail-wrapper"
+                >
+                    <img 
+                        src="https://img.youtube.com/vi/zjLYnyyKxxI/maxresdefault.jpg"
+                        alt="Project 3 Demo" 
+                        className="project-image" 
+                    />
+                </a>
             </div>
             <div className="project-item2">
                 <div className="project-text">
